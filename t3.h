@@ -3,6 +3,7 @@
 
 #define MAX_GRAPH 10000
 #define MAX_STRING_SIZE 100
+#define NEXT_FIELD_FAIL -5
 
 typedef struct Graph {
     int graph_ar[MAX_GRAPH][MAX_GRAPH];
